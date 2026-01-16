@@ -97,13 +97,13 @@ select {
     flex-direction: column;
 }
 
+.hero-title {
+   font-size: clamp(2rem, 5vw, 5rem);
+}
+
 .hero p {
     font-size: 1.2rem;
     color: #222C2A;
-}
-
-.hero-title {
-    font-size: 4.5rem;
 }
 
 /* article */
@@ -202,6 +202,7 @@ select {
         flex-direction: column-reverse;
     }
 }
+
 
 
 
