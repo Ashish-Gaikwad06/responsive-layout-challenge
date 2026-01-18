@@ -35,7 +35,7 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Playfair Display", serif;
 }
 
 /* A elements that don't have a class get default styles */
@@ -97,13 +97,17 @@ select {
     flex-direction: column;
 }
 
-.hero-title {
-   font-size: clamp(2rem, 5vw, 5rem);
-}
-
 .hero p {
     font-size: 1.2rem;
     color: #222C2A;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.hero-title {
+    font-size: clamp(2rem, 4.5vw, 5rem);
+    font-style:normal;
 }
 
 /* article */
@@ -115,7 +119,7 @@ select {
 }
 
 .article-title {
-    font-size: 1.5rem;
+    font-size: clamp(1rem, 1.8vw, 3rem);
     color: #824936;
     margin-bottom: 3rem;
 }
@@ -124,6 +128,8 @@ select {
     color: #222C2A;
     gap: 2rem;
     font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
 }
 
 /* demos */
@@ -146,13 +152,14 @@ select {
 
 .demo-title {
     color: #F3EED9;
-    font-size: 1.5rem;
+    font-size: clamp(1rem, 1.8vw, 3rem);
     margin-bottom: 1rem;
 }
 
 .demo-desc {
     font-size: 1rem;
-    /* width: 80%; */
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
 }
 
 .demo-img{
@@ -198,8 +205,6 @@ select {
         flex-direction: column-reverse;
     }
 }
-
-
 
 
 
